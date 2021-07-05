@@ -6,11 +6,13 @@ import { FormsModule } from '@angular/forms';
 import { EtudiantComponent } from './etudiant/etudiant.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { AddEtudiantComponent } from './add-etudiant/add-etudiant.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EtudiantComponent
+    EtudiantComponent,
+    AddEtudiantComponent
   ],
   imports: [
     BrowserModule,
